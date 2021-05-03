@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 5px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black
+}
+
+
+.menu{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+div span{
+    background-color: black;
+    display: block;
+    padding: 22px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+.part1{
+border-bottom: 2px solid #EAEAEA;
+}
+
+.photo{
+    background-image: url(https://freepikpsd.com/wp-content/uploads/2019/10/disney-mickey-png-1-Transparent-Images.png);
+   
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.text{
+    background-color: rgba(161, 156, 156, 0.726);
+    text-align: center;
+    position: absolute;
+    right: 0;
+    padding: 50px;
+    top: 20%; 
+}
+.inner-text{
+    border: solid 1px white;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+   
+}
+h1{
+    align-items: center;
+}
+p{
+    align-items: center;
+}
+.txt{
+    text-align: center;
+} 
+ .menu-2 li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    
+}
+.menu-2 a{
+    text-decoration: none;
+    color: black
+}
+.menu-2{
+  
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.bold{
+    border: solid 1px black;
+    background-color: black;
+}
+  .bold a{
+      color: white;
+}
+.box-2{
+    text-align: center;
+}
+.txt-2{
+    text-align: center;
+}
+.part4{
+    padding-top: 30px;
+    background-color:#80808024;
+  
+}
+
+ul{
+    padding: 0;
+}
+
+
+.wrapper{
+    max-width: 1124px;
+    margin: auto;
+    position: relative;
+}
+ img{
+    width: 100%;
+}
+.box{
+    margin: 0 10px;
+  box-shadow: 0px 3px 2px 5px #0000000a;
+}
+.box-2{
+    margin: 0 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+     padding-left: 10px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bi-arrow-up-circle-fill{
+    position: fixed;
+    font-size: 25px;
+    right: 10px;
+    bottom: 10px;
+}
+.scroll{
+    color: grey;
+}
+.submenu{
+    position: relative;
+}
+.submenuitems{
+    position: absolute;
+    display: none;
+    width: 100px;
+    z-index: 999;
+    background-color: rgba(161, 156, 156, 0.726);
+}
+.submenu:hover .submenuitems{
+    display: block;
+}  
+.submenu li :hover{
+    color: white;
+} 
+@media (max-width:768px){
+    .menu{
+       display: none; 
+    }
+    .logo{
+        margin: auto;
+    }
+    .text{
+       width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-2 li{
+        display: block;
+        text-align: center;
+    }
+    .menu-2 ul{
+        margin: auto;
+    }
+    
+
+}
+@media(max-width:930px){
+     .container{
+        flex-wrap: wrap;
+    }
+    .box, .box-2{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media(max-width:390px){
+    .footer a{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+
